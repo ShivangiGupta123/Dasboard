@@ -3,7 +3,7 @@ import React from 'react'
 
 const PortfolioCard = ({ icon, title = "Title", totalShare = "000", profit = "0.00", inProfit = true }) => {
     return (
-        <div className=' rounded' style={{border:"1px solid black"}}>
+        <div className='border rounded'>
             <div className='d-flex flex-row justify-content-start align-items-center align-content-center '>
                 <div className='border rounded-circle d-flex justify-content-center align-items-center ' style={{ height: 30, width: 30 }} >
                     {icon}
