@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Sidebar.css'
-import { ArrowUp, Eye, EyeSlash, FlashCircle, Home2 } from 'iconsax-react'
+import { ArrowUp, Eye, EyeSlash, Home2 } from 'iconsax-react'
 const Sidebar = () => {
   const [showInvestment, setShowInvestment] = useState(true);
   return (
