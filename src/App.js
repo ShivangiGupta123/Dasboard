@@ -1,25 +1,58 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import {BrowserRouter as Router , Routes , Route} from 'react-router-dom'
+import Layout from './Layout/Layout'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+         <Router>
+        <Routes>
+          <Route path="/" element={<Layout/>}/>
+         
+        </Routes>
+      </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+
+
+
+export default App
+// import React, { useState } from "react";
+// import "./App.css";
+// function App() {
+//   const [colors, setColors] = useState(Array(9).fill(false));
+
+//   const handleClick = (index) => {
+//     const newColor = [...colors];
+//     if (index === 8) {
+//       setColors(Array(9).fill("orange"));
+//     } else {
+//       newColor[index] = "green";
+
+//       setColors(newColor);
+//     }
+//   };
+//   return (
+//     <>
+//       <div className="grid-container">
+//         {colors?.map((color, index) => (
+//           <div
+//             key={index}
+//             className="grid-item"
+//             onClick={() => handleClick(index)}
+//             style={{ backgroundColor: color ? color : "white" }}
+//           ></div>
+//         ))}
+//       </div>
+//     </>
+//   );
+// }
+
+// export default App;
+// ==========================
+
+
+
+
