@@ -8,13 +8,13 @@ const Layout = () => {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col-md-2" style={{ backgroundColor: "white" }}>
+        <div className="col-md-2" style={{ backgroundColor: "white"  , border:"1px solid #efe2e2"}}>
           <Sidebar />
         </div>
-        <div className="col-md-10" style={{ backgroundColor: "red" }}>
+        <div className="col-md-10" style={{ backgroundColor: "white" }}>
           <Navbar />
           <div className="row">
-            <div className="col-md-12" style={{ backgroundColor: "green" }}>
+            <div className="col-md-12" >
               <Portfolio />
             </div>
           </div>
