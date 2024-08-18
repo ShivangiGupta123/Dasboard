@@ -1,3 +1,7 @@
 .sidebar-container{
     height:100vh;
 }
+.custom-hover:hover {
+    background-color: #f0f0f0; /* Change to your desired background color */
+    cursor: pointer; /* Optional: change cursor to pointer on hover */
+  }
