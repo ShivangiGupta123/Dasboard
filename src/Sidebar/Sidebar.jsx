@@ -6,7 +6,6 @@ const Sidebar = () => {
   return (
     <div className='sidebar-container'>
       <div className='border px-2 py-2 mt-2 d-flex align-items-center justify-content-left'>
-
         <div className='d-flex flex-row justify-center align-content-center border align-items-center '>
           <div className='border '>
             <p className='text-white fs-6' >Total Investement</p>
